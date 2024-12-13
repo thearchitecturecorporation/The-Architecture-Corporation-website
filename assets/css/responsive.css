@@ -385,6 +385,7 @@ text-align: center;
         -webkit-font-smoothing: antialiased;
     }
 }
+
 @media (max-width: 767px) {
     #responsive-text-project-titleB-banner{
         font-size: 18px;
@@ -1456,5 +1457,10 @@ https://images.pexels.com/photos/2240766/pexels-photo-2240766.jpeg?auto=compress
   #smallImg{
    /* background-color: red; */
    margin-top: -100px !important;
+  }
+}
+@media (max-width: 767px) {
+  #textone{
+    margin-bottom: -160px !important;
   }
 }
