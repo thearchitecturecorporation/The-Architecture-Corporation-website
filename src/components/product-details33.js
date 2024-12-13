@@ -24,6 +24,7 @@ import ShopDetails26 from './shop-components/shop-details26';
 import ShopDetails30 from './shop-components/shop-details30';
 import ShopDetails32 from './shop-components/shop-details32';
 import { Helmet } from 'react-helmet';
+import TextTwo from './shop-components/TextTwo';
 // real working
 const Product_Details33 = () => {
     return <div>
@@ -32,7 +33,7 @@ const Product_Details33 = () => {
       </Helmet>
         <NavbarV2 />
         <PageHeader headertitle="Interior Design"  customclass="mb-0" />
-
+<TextTwo/>
 
         {/* <ProductSliderV115/> */}
         <ShopDetails32 />

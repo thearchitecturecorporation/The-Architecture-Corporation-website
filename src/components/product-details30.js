@@ -23,6 +23,7 @@ import ShopDetails25 from './shop-components/shop-details25';
 import ShopDetails26 from './shop-components/shop-details26';
 import ShopDetails30 from './shop-components/shop-details30';
 import { Helmet } from 'react-helmet';
+import Textone from './shop-components/Textone';
 
 const Product_Details30 = () => {
     return <div>
@@ -31,6 +32,7 @@ const Product_Details30 = () => {
       </Helmet>
         <NavbarV2 />
         <PageHeader headertitle="Architecture Design"  customclass="mb-0" />
+        <Textone/>
         {/* <ProductSliderV115/> */}
         <ShopDetails30 />
         {/* <CallToActionV1 /> */}
