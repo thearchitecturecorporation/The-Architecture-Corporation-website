@@ -8,7 +8,7 @@ class TextTwo extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <div className="ltn__shop-details-area pb-10" style={{marginTop:'-120px'}}>
+    return <div className="ltn__shop-details-area pb-10" style={{marginTop:'-120px'}} id='textone'git >
                 <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
