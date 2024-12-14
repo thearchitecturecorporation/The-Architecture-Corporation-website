@@ -89,8 +89,8 @@ class Contactnav extends Component {
 										
 									</ul> */}
 								{/* </li> */}
-								<li><Link to="/Architecture">Architecture</Link></li>
-																<li><Link to="/Interior">Interior </Link></li>
+								<li><Link to="/Architecture">Architecture Design</Link></li>
+																<li><Link to="/Interior">Interior Design </Link></li>
 								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
 								<li><Link to="/contact">Contact </Link></li>
 
@@ -200,8 +200,8 @@ class Contactnav extends Component {
 							
 						</ul> */}
 						{/* </li> */}
-						<li><Link to="/Architecture">Architecture</Link></li>
-														<li><Link to="/Interior">Interior </Link></li>
+						<li><Link to="/Architecture">Architecture Design</Link></li>
+														<li><Link to="/Interior">Interior Design </Link></li>
 								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
 								<li><Link to="/contact">Contact </Link></li>
 						

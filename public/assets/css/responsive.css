@@ -1192,9 +1192,13 @@ https://images.pexels.com/photos/2240766/pexels-photo-2240766.jpeg?auto=compress
   @media (max-width: 767px) {
     #homepagebtn{
         margin-top: 40px;
+        display: flex;
+        text-align: center;
+        
+        margin-bottom: -90px;
     }
   }
-  
+ 
 
   
 

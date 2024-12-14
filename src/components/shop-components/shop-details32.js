@@ -37,29 +37,29 @@ class ShopDetails32 extends Component {
 						
 						</ul>
 						<div className="tab-content " >
-						<div style={{ textAlign: 'center', marginTop: '-80px' }}>
+						<div style={{ textAlign: 'start', marginTop: '-80px' }}>
   <h5
     id="responsive-text-project-heading"
     style={{
       marginTop: '-90px',
-      marginBottom: '50px',
+      marginBottom: '20px',
       position: 'relative',
       display: 'inline-block',
     }}
   >
     Check out some of Our works
-    <span
+    {/* <span
       style={{
         content: '""',
         position: 'absolute',
         bottom: '-7px',
         left: '50%',
-        transform: 'translateX(-50%)',
+        transform: 'translateX(-90%)',
         height: '2px',
         width: '50%',
-        backgroundColor: '#00249A', // Change to your desired color
+        backgroundColor: '#00249A', 
       }}
-    ></span>
+    ></span> */}
   </h5>
   <style>
     {`

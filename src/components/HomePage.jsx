@@ -16,8 +16,9 @@ tailored for you,<br/>
   and inspired by you.</p>
   <div className="btn-wrapper animated" id='responsive-text-project-title'>
     <div id='homepagebtn'>
-    <Link to="/our-projects" className="buttons">Our Projects </Link> &#160; &#160;
-    <Link to="/about" className="buttons">About </Link>
+    <Link to="/Architecture" className="buttons">Architecture Design </Link> &#160;
+    <Link to="/Interior" className="buttons">Interior Design </Link>&#160;
+    <Link to="/about" className="buttons" >About</Link>&#160;
     </div>
 					
 						</div>
