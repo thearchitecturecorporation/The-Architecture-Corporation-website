@@ -21,9 +21,13 @@ class ShopDetails30 extends Component {
 								{/* <a className="active show" data-bs-toggle="tab" href="#liton_product_grid" style={{fontFamily:'Poppins, sans-serif '}}>All Projects</a>
 								<a  data-bs-toggle="tab" href="#Architecture" style={{fontFamily:'Poppins, sans-serif '}}>Architecture Design</a>
 								<a  data-bs-toggle="tab" href="#Commercial" style={{fontFamily:'Poppins, sans-serif '}}> Interior Design</a> */}
+								
+{/* 								
 								<Link  to='/allprojects'  >All Projects</Link>
 								<Link  to='/Architecture' className="active show" style={{color:'#082A9D'}}>Architecture Design</Link>
-								<Link  to='/Interior'> Interior Design</Link>
+								<Link  to='/Interior'> Interior Design</Link> */}
+								{/* <h5 class="slide-title" style={{textAlign:'center',fontSize:'40px'}}>Check out some of Our works</h5> */}
+								{/* <h4 id='responsive-text-project-heading'>Check out some of Our works</h4> */}
 								{/* <a data-bs-toggle="tab" href="#liton_product_list"><i className="fas fa-list" /></a> */}
 							</div>
 							</div>
@@ -33,6 +37,46 @@ class ShopDetails30 extends Component {
 						
 						</ul>
 						<div className="tab-content " >
+						<div style={{ textAlign: 'center', marginTop: '-80px' }}>
+  <h5
+    id="responsive-text-project-heading"
+    style={{
+      marginTop: '-90px',
+      marginBottom: '50px',
+      position: 'relative',
+      display: 'inline-block',
+    }}
+  >
+    Check out some of Our works
+    <span
+      style={{
+        content: '""',
+        position: 'absolute',
+        bottom: '-7px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        height: '2px',
+        width: '50%',
+        backgroundColor: '#00249A', // Change to your desired color
+      }}
+    ></span>
+  </h5>
+  <style>
+    {`
+      #responsive-text-project-heading {
+        font-size: 35px;
+      }
+      @media (max-width: 768px) {
+        #responsive-text-project-heading {
+          font-size: 25px;
+        }
+      }
+    `}
+  </style>
+</div>
+
+
+
 
 							
 						{/* Architecture */}

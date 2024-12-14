@@ -81,14 +81,16 @@ class Contactnav extends Component {
 								<ul style={{display:'flex',justifyContent:'center'}}> 
 								<li id='contactcolor'><Link to="/home">Home</Link></li>
 								<li > <Link to="/about">About</Link></li>
-								<li ><Link to="/our-projects">Projects</Link>
+								{/* <li ><Link to="/our-projects">Projects</Link> */}
 									{/* <ul style={{backgroundColor:"black"}}>
 										<li ><Link to="/Architecture">Architecture Designs</Link></li>
 										<li><Link to="/Commercial">Commercial Interior Design</Link></li>
 										<li><Link to="/Interior">Interior Designs</Link></li>
 										
 									</ul> */}
-								</li>
+								{/* </li> */}
+								<li><Link to="/Architecture">Architecture</Link></li>
+																<li><Link to="/Interior">Interior </Link></li>
 								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
 								<li><Link to="/contact">Contact </Link></li>
 
@@ -190,14 +192,16 @@ class Contactnav extends Component {
 						</ul>
 						</li> */}
 						<li><Link to="/about">About</Link></li>
-						<li><Link to="/our-projects">Projects</Link>
+						{/* <li><Link to="/our-projects">Projects</Link> */}
 						{/* <ul className="sub-menu">
 							<li><Link to="/Architecture">Architecture</Link></li>
 							<li><Link to="/Commercial">Commercial Interior Design</Link></li>
 							<li><Link to="/Interior">Interior Designs</Link></li>
 							
 						</ul> */}
-						</li>
+						{/* </li> */}
+						<li><Link to="/Architecture">Architecture</Link></li>
+														<li><Link to="/Interior">Interior </Link></li>
 								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
 								<li><Link to="/contact">Contact </Link></li>
 						

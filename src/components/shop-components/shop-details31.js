@@ -21,9 +21,13 @@ class ShopDetails31 extends Component {
 								{/* <a className="active show" data-bs-toggle="tab" href="#liton_product_grid" style={{fontFamily:'Poppins, sans-serif '}}>All Projects</a>
 								<a  data-bs-toggle="tab" href="#Architecture" style={{fontFamily:'Poppins, sans-serif '}}>Architecture Design</a>
 								<a  data-bs-toggle="tab" href="#Commercial" style={{fontFamily:'Poppins, sans-serif '}}> Interior Design</a> */}
+
+
 								<Link  to='/allprojects' className="active show" style={{color:'#082A9D'}}>All Projects</Link>
 								<Link  to='/Architecture'>Architecture Design</Link>
 								<Link  to='/Interior'> Interior Design</Link>
+
+								
 								{/* <a data-bs-toggle="tab" href="#liton_product_list"><i className="fas fa-list" /></a> */}
 							</div>
 							</div>
