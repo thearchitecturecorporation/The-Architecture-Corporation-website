@@ -80,10 +80,12 @@ import Product_Details30 from './components/product-details30';
 import Product_Details31 from './components/product-details31';
 import Product_Details32 from './components/product-details32';
 import Product_Details33 from './components/product-details33';
+import Whatsapp from './components/global-components/Whatsapp';
 class Root extends Component {
     render() {
         return(
                 <Router  basename="/">
+                    <Whatsapp/>
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV2} />

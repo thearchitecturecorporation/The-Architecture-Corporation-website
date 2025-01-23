@@ -28,6 +28,7 @@ import Imgslider from './Imgslider';
 import ImageBanner from './ImageBanner';
 import BannerV3 from './section-components/banner-v3';
 import { Helmet } from 'react-helmet';
+import Whatsapp from './global-components/Whatsapp';
 
 const Home_V2 = () => {
     return <div>
