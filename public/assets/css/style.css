@@ -17763,6 +17763,7 @@ input.cart-plus-minus-box {
     font-size: 16px;
     height: 30px;
     width: 30px;
+    right: 30px;
     bottom: 50px;
   }
   #scrollUp i {
